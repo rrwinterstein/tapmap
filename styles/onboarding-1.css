@@ -1,23 +1,23 @@
 /*----------------------------------------
 Background
 ----------------------------------------*/
-.background {
+.background img {
   position: fixed;
-  width: inherit;
-  height: inherit;
+  width: 375px;
+  height: 667px;
   z-index: -1;
 }
 .content {
   position: relative;
 }
-.logo {
+.logo img {
   position: relative;
   display: block;
   width: 200px;
   height: 64px;
   margin: 60px auto 30px;
 }
-.featured {
+.featured img {
   position: relative;
   display: block;
   width: 250px;
@@ -41,6 +41,27 @@ Background
   font-size: 18px;
   color: #333;
   margin: 0;
+}
+.pagination {
+  width: 42px;
+  height: 6px;
+  margin-top: 10px;
+  align-content: space-between;
+}
+.dot {
+  position: relative;
+  display: inline-flex;
+  width: 6px;
+  height: 6px;
+  border-radius: 3px;
+  border: 1px solid #fff;
+  box-sizing: border-box;
+}
+#active {
+  width: 6px;
+  height: 6px;
+  border-radius: 3px;
+  background-color: #fff;
 }
 .sign-up-btn {
   position: relative;

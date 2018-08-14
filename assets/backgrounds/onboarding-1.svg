@@ -1,0 +1,24 @@
+<svg width="375" height="667" viewBox="0 0 375 667" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0)">
+<rect width="375" height="667" fill="white"/>
+<rect width="1013" height="531" fill="black" fill-opacity="0" transform="translate(0 136)"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M0 667H375V433.325C360.33 431.231 345.677 426.363 331.128 418.019C206.033 346.271 63.3473 290.225 0 366.946V667Z" fill="url(#paint0_linear)"/>
+<path d="M183 210.319C193.089 226.45 223.115 262.007 262.512 275.179C306.115 289.757 346.127 305.613 430.256 296.133C493.738 288.98 478.989 233.269 524.644 193.355C548.128 172.825 574.916 157.932 595.948 172.401C616.98 186.869 606.721 213.312 580.559 203.334C554.397 193.355 554.002 174.396 555.423 166.414C560.04 140.47 595.58 127.207 630.318 142.465C662.122 156.435 689.823 182.379 707.778 203.334C725.732 224.289 752.407 263.703 790.367 275.179C840.639 291.144 874.496 244.245 904.761 228.779C935.027 213.312 994.02 224.787 1013 241.252" stroke="#C5E1F6" stroke-width="2" stroke-dasharray="15 10"/>
+<rect width="269" height="194" fill="black" fill-opacity="0" transform="translate(41 178)"/>
+<circle opacity="0.5" cx="46" cy="183" r="5" fill="#AAF0FF"/>
+<circle opacity="0.5" cx="65" cy="282" r="5" fill="#AAF0FF"/>
+<circle opacity="0.5" cx="305" cy="205" r="5" fill="#AAF0FF"/>
+<circle opacity="0.5" cx="146" cy="229" r="3" fill="#6199CD"/>
+<circle opacity="0.5" cx="102" cy="369" r="3" fill="#6199CD"/>
+<circle opacity="0.5" cx="269" cy="261" r="3" fill="#6199CD"/>
+</g>
+<defs>
+<linearGradient id="paint0_linear" x1="563.25" y1="267.816" x2="563.25" y2="649" gradientUnits="userSpaceOnUse">
+<stop stop-color="#A5EFFF"/>
+<stop offset="1" stop-color="#448FFF"/>
+</linearGradient>
+<clipPath id="clip0">
+<rect width="375" height="667" fill="white"/>
+</clipPath>
+</defs>
+</svg>

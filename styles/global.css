@@ -1,0 +1,43 @@
+/*----------------------------------------
+Global styles
+----------------------------------------*/
+html,
+body {
+  width: 375px;
+  height: 667px;
+  overflow: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+}
+.container {
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+}
+.container::before .container::after {
+  content: " ";
+  display: table;
+}
+.container::after {
+  clear: both;
+}
+.wrapper{
+  box-sizing: border-box;
+}
+
+/* Text */
+h1 {
+  font-family: 'Nunito', sans-serif;
+  font-size: 36px;
+}
+h2 {
+  font-family: 'Nunito', sans-serif;
+  font-size: 24px;
+}
+
+/* Components */
+
+
+/*----------------------------------------
+Components
+----------------------------------------*/

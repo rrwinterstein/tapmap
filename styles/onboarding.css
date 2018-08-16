@@ -8,7 +8,9 @@ Background
   z-index: -1;
 }
 .content {
-  position: relative;
+  position: absolute;
+  top: 0;
+  width: 375px;
 }
 .logo img {
   position: relative;
@@ -39,10 +41,12 @@ Background
   margin: 0 auto 0 22px;
 }
 .featured .arrow-left {
-  margin-left: 24px;
+  height: fit-content;
+  margin: auto 0 auto 24px;
 }
 .featured .arrow-right {
-  margin-right: 24px;
+  height: fit-content;
+  margin: auto 24px auto 0;
 }
 .text-box {
   display: block;

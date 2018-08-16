@@ -3,32 +3,42 @@
 <head>
   <meta charset="utf-8"/>
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>Onboarding-1</title>
+  <title>Onboarding-2</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" type="text/css" media="screen" href="styles/normalize.css"/>
   <link rel="stylesheet" type="text/css" media="screen" href="styles/global.css"/>
-  <link rel="stylesheet" type="text/css" media="screen" href="styles/onboarding-2.css"/>
+  <link rel="stylesheet" type="text/css" media="screen" href="styles/onboarding.css"/>
+  <link href="https://fonts.googleapis.com/css?family=Muli:400,600,700|Nunito:300,400,600,700,800|Roboto:700" rel="stylesheet">
 </head>
 <body>
   <div class="background">
-    <img src="assets/backgrounds/onboarding-2.png" alt="">
+    <img src="assets/backgrounds/onboarding-2.svg" alt="">
   </div>
 
   <section class="content container">
     <div class="logo">
       <img src="assets/logos/color-large.png" alt="">
     </div>
-
+    
     <div class="featured">
-      <img src="assets/images/feature-onboarding-2.png" alt="">
+      <img src="assets/icons/arrow-left.svg" class="arrow-left" alt="">
+      <img src="assets/images/feature-onboarding-2.png" class="image image2" alt="">
+      <img src="assets/icons/arrow-right.svg" class="arrow-right" alt="">
     </div>
 
     <div class="text-box container">
-      <h2 class="heading">Discover</h2>
-      <p class="description">Find nearby restaurants, stores, and more that accept Apple Pay.</p>
+      <h2 class="heading">Search</h2>
+      <p class="description">Look for places to eat based on your location or search a specific area.</p>
     </div>
 
+    <div class="pagination container">
+      <span class="dot"></span>
+      <span class="dot" id="active"></span>
+      <span class="dot"></span>
+    </div>
+    
     <a href="onboarding-3.html" class="sign-up-btn">Sign up to get started</a>
+    <a href="#" class="skip-btn">Skip</a>
   </section>
 </body>
 </html>

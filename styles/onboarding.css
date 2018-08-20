@@ -7,6 +7,10 @@ Background
   height: 667px;
   z-index: -1;
 }
+
+/*----------------------------------------
+Content
+----------------------------------------*/
 .content {
   position: absolute;
   top: 0;

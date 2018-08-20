@@ -7,7 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" type="text/css" media="screen" href="styles/normalize.css"/>
   <link rel="stylesheet" type="text/css" media="screen" href="styles/global.css"/>
-  <link rel="stylesheet" type="text/css" media="screen" href="styles/sign-up.css"/>
+  <link rel="stylesheet" type="text/css" media="screen" href="styles/signup-login.css"/>
   <link href="https://fonts.googleapis.com/css?family=Muli:400,600,700|Nunito:300,400,600,700,800|Roboto:700" rel="stylesheet">
 </head>
 <body>
@@ -18,23 +18,21 @@
   <section class="content container">
     <div class="status-bar"><img src="assets/status-bars/white.svg" alt=""></div>
     
-    <a href="#" class="back-arrow"><img src="assets/icons/back-arrow.svg" alt=""></a>
+    <a href="javascript: history.go(-1)" class="back-arrow"><img src="assets/icons/back-arrow.svg" alt=""></a>
 
-    <div class="logo">
-      <img src="assets/logos/white-small.svg" alt="">
-    </div>
+    <img src="assets/logos/white-small.png" class="logo" alt="">
 
     <div>
       <h1 class="heading">Sign up</h1>
     </div>
 
     <div class="inputs container">
-      <div class="email">Email</div>
-      <div class="password">Password</div>
+      <input class="email" type="text" placeholder="Email">
+      <input class="password" type="password" placeholder="Password">
     </div>
 
-    <div class="signup-buttons container">
-      <a href="onboarding-2.html" class="sign-up-btn">Sign Up</a>
+    <div class="sign-up-buttons container">
+      <a href="categories.html" class="sign-up-btn">Sign Up</a>
       <p>Or sign up with Google</p>
       <hr>
       <a href="" class="google-signup"><img src="assets/buttons/google-signup.svg" alt=""></a>

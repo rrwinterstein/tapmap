@@ -5,7 +5,7 @@ html,
 body {
   width: 375px;
   height: 667px;
-  overflow: hidden;
+  overflow-x: hidden;
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
 }
@@ -35,9 +35,73 @@ h2 {
   font-size: 24px;
 }
 
-/* Components */
-
-
 /*----------------------------------------
 Components
 ----------------------------------------*/
+/* Status bar */
+.status-bar {
+  position: fixed;
+  top: 0;
+  height: 20px;
+  z-index: 999;
+}
+
+/* Tab bar */
+.tab-bar {
+  position: fixed;
+  bottom: 0;
+  display: flex;
+  height: 50px;
+  width: 375px;
+  background-color: #fff;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.25);
+  z-index: 999;
+}
+
+/* Header with search bar */
+.header-main {
+  position: fixed;
+  display: block;
+  width: 375px;
+  background-color: #0c8eed;
+  padding: 30px 0 14px;
+  z-index: 1;
+}
+.header-main .logo {
+  position: relative;
+  display: block;
+  width: 75px;
+  height: 24px;
+  margin: auto;
+}
+.header-main .back-arrow {
+  position: absolute;
+  display: block;
+  top: 34px;
+  left: 16px;
+}
+.header-main .search-bar {
+  position: relative;
+  display: block;
+  width: 355px;
+  height: 36px;
+  background-color: #fff;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.15);
+  border-radius: 18px;
+  margin: 16px auto 0;
+}
+.search-bar .search-icon {
+  position: relative;
+  display: inline;
+  margin: 12px auto auto 15px;
+}
+.search-bar .input {
+  position: relative;
+  width: 295px;
+  font-family: 'Muli';
+  font-weight: normal;
+  font-size: 14px;
+  color: #333;
+  border-style: none;
+  margin: auto 10px;
+}

@@ -82,7 +82,7 @@ Components
 }
 .header-main .search-bar {
   position: relative;
-  display: block;
+  display: flex;
   width: 355px;
   height: 36px;
   background-color: #fff;

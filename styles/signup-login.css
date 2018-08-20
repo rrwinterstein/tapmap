@@ -30,8 +30,10 @@ Content
   margin: 60px auto 40px;
 }
 .heading {
+  position: relative;
   display: block;
-  width: fit-content;
+  width: 375px;
+  text-align: center;
   color: #fff;
   margin: auto;
 }
@@ -49,7 +51,7 @@ Content
   background-color: #fff;
   border-style: none;
   border-radius: 20px;
-  padding: 10px 15px 10px;
+  padding: 10px 15px 8px;
   margin-top: 20px;
 }
 .inputs .password {
@@ -61,7 +63,7 @@ Content
   background-color: #fff;
   border-style: none;
   border-radius: 20px;
-  padding: 10px 15px 10px;
+  padding: 10px 15px 8px;
   margin-top: 20px;
 }
 .sign-up-btn {

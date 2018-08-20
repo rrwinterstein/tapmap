@@ -16,6 +16,7 @@ Content
   height: 50px;
   justify-content: center;
   align-items: center;
+  z-index: 1;
 }
 .category.header span {
   position: relative;

@@ -6,7 +6,6 @@ body {
   width: 375px;
   height: 667px;
   overflow-x: hidden;
-  background: #eaf0f3;
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
 }
@@ -99,10 +98,12 @@ Components
 .search-bar .input {
   position: relative;
   width: 295px;
+  height: 24px;
   font-family: 'Muli';
   font-weight: normal;
   font-size: 14px;
   color: #333;
   border-style: none;
-  margin: 10px 10px auto;
+  padding: 0;
+  margin: auto;
 }

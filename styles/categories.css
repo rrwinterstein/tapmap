@@ -5,7 +5,8 @@ Content
   position: absolute;
   top: 0;
   width: 375px;
-  height: 667px;
+  height: 100%;
+  background: #eaf0f3;
 }
 .categories {
   position: relative;

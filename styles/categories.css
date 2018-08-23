@@ -5,8 +5,7 @@ Content
   position: absolute;
   top: 0;
   width: 375px;
-  height: 100%;
-  background: #eaf0f3;
+  height: 667px;
 }
 .categories {
   position: relative;
@@ -30,10 +29,9 @@ Content
   width: 100%;
   height: auto;
   font-family: 'Nunito';
-  font-weight: bold;
+  font-weight: 700;
   font-size: 18px;
   text-align: center;
-  text-justify: inter-word;
   color: #fff;
   background-color: rgba(0, 0, 0, 0.5);
   padding: 51px 0;

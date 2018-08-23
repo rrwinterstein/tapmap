@@ -45,7 +45,9 @@ Content
 .inputs .email {
   width: 275px;
   font-family: 'Muli';
-  font-weight: normal;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
   font-size: 14px;
   color: #333;
   background-color: #fff;
@@ -57,7 +59,9 @@ Content
 .inputs .password {
   width: 275px;
   font-family: 'Muli';
-  font-weight: normal;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
   font-size: 14px;
   color: #333;
   background-color: #fff;
@@ -70,8 +74,10 @@ Content
   position: relative;
   display: block;
   width: 255px;
-  font-family: 'Nunito', sans-serif;
+  font-family: 'Nunito';
+  font-style: normal;
   font-weight: 700;
+  line-height: normal;
   font-size: 18px;
   text-align: center;
   color: #fff;
@@ -83,7 +89,9 @@ Content
 }
 .sign-up-buttons p {
   font-family: 'Muli';
-  font-weight: normal;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
   font-size: 14px;
   text-align: center;
   color: #fff;
@@ -107,7 +115,9 @@ Content
   width: 100%;
   bottom: 0;
   font-family: 'Muli';
-  font-weight: bold;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
   font-size: 14px;
   text-align: center;
 }

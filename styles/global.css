@@ -49,7 +49,7 @@ Components
 /* Tab bar */
 .tab-bar {
   position: fixed;
-  bottom: 0;
+  top: 617px;
   display: flex;
   height: 50px;
   width: 375px;
@@ -100,7 +100,9 @@ Components
   width: 295px;
   height: 24px;
   font-family: 'Muli';
+  font-style: normal;
   font-weight: normal;
+  line-height: normal;
   font-size: 14px;
   color: #333;
   border-style: none;

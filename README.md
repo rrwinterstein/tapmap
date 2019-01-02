@@ -4,6 +4,8 @@
 
 This repo consists of a brief case study and assets for the design of Tapmap. Below you can find links to the full prototype and brand guidelines along with a working prototype built in HTML and CSS to provide a general understanding of how the application will work.
 
+**Full [case study](https://rwinterstein.com/tapmap.html) available on my website.**
+
 [Prototype](https://www.figma.com/file/adF87KZHPsCzJuXQaz2r76ZT/Tapmap-Mockups?node-id=0%3A1)
 
 [Brand Guidelines](https://www.figma.com/file/OlbEh1haeOpnMlEXRQlMNetK/Tapmap-Brand-Guidelines?node-id=10%3A2)
